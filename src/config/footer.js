@@ -1,63 +1,40 @@
 export const footerSocials = [
-  {
-    name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
-    icon: "mdi:twitter",
-  },
-  {
-    name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
-    icon: "mdi:youtube",
-  },
-  {
-    name: 'Github',
-    url: 'https://github.com/littlesticks',
-    icon: "mdi:github",
-  },
-  {
-    name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
-    icon: "ic:baseline-discord",
-  },
-]
+	{
+		name: 'LinkedIn',
+		url: 'https://www.linkedin.com/in/nina-f-b1b9104/',
+		icon: 'mdi:linkedin',
+	},
+	{
+		name: 'Email',
+		url: 'mailto:bkknina@gmail.com',
+		icon: 'mdi:email',
+	},
+];
 
 export const footerLists = [
-	{
-		title: 'Landing Pages',
-		items: [
-			{
-				title: 'Landing Page 1',
-				slug: '/landing-pages/landing-1',
-			},
-			{
-				title: 'Landing Page 2',
-				slug: '/landing-pages/landing-2',
-			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
-		],
-	},
 	{
 		title: 'Company',
 		items: [
 			{
 				title: 'About',
-				slug: '/company/about',
+				slug: '/about',
 			},
 			{
-				title: 'Blog',
-				slug: '/blog',
+				title: 'Service',
+				slug: '/serviec',
 			},
 			{
 				title: 'Contact',
-				slug: '/company/contact',
+				slug: '/contact',
+			},
+			{
+				title: 'Portfolio',
+				slug: '/portfolio',
 			},
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Impressum',
 		items: [
 			{
 				title: 'Get Started',
@@ -67,14 +44,14 @@ export const footerLists = [
 				title: 'Style Guide',
 				slug: '/theme/style-guide',
 			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
+			{
+				title: 'Theme Setup',
+				slug: '/theme/theme-setup',
+			},
+			{
+				title: 'Customizing Odyssey',
+				slug: '/theme/customizing-odyssey',
+			},
 		],
 	},
 ];

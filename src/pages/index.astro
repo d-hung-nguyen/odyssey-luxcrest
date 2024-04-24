@@ -1,7 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
 import {
-	AnnouncementBar,
 	Button,
 	CustomerQuoteSection,
 	ThreeColumnTextSection,
@@ -13,24 +12,18 @@ import Layout from '../layouts/Page.astro';
 import TextAndImageHero from '../components/sections/heros/TextAndImageHero.astro';
 
 const seo = {
-	title: 'Landing Page #1 | Astro Odyssey Theme',
-	description: 'Landing Page #1 | Astro Odyssey Theme',
+	title: 'Home | luxcrest',
+	description: 'Home | luxcrest',
 };
 ---
 
 <Layout {seo}>
-	<TextAndImageHero reversed>
+	<TextAndImageHero>
 		<div slot="text-container">
 			<h1>Don't Reinvent the Wheel</h1>
-			<p>Use Odyssey Theme to jumpstart your company's marketing website.</p>
+			<p>Elevate Your Hotel's Success with Luxcrest.</p>
 		</div>
-		<div slot="btns-container">
-			<Button href="/theme/get-started" customIcon
-				>Get Started <Fragment slot="icon">
-					<Icon name="ic:baseline-chevron-right" />
-				</Fragment></Button
-			>
-		</div>
+
 		<picture slot="image-container">
 			<img src="/assets/images/landing-1/landing-hero-1.jpg" alt="Astro Odyssee" id="home-hero-image"
 			/>
@@ -38,17 +31,16 @@ const seo = {
 	</TextAndImageHero>
 
 	<CustomerQuoteSection
-		quoteText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vero nobis? Voluptas assumenda, voluptatibus commodi qui ducimus delectus praesentium maiores, impedit iure labore ratione, ea facilis numquam doloremque aperiam aspernatur."
-		customerName="Happy Customer"
+		quoteText="Collaborating with Luxcrest completely transformed our business. Their customized approach and meticulous attention to detail surpassed what we had hoped for."
+		customerName="John Doe, General Manager, Hotel XYZ"
 	/>
 
 	<ThreeColumnTextSection>
 		<div slot="column-1-body">
 			<h2>Why?</h2>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem tempore odio! Nemo
-				consectetur ipsa aperiam similique maxime maiores consequatur explicabo ut quibusdam fugiat
-				corporis, dignissimos tenetur, mollitia cumque. Velit.
+				Collaborating with Luxcrest completely transformed our business. Their customized approach and
+				meticulous attention to detail surpassed what we had hoped for.
 			</p>
 		</div>
 		<Button slot="column-1-cta">Learn More</Button>
@@ -72,11 +64,9 @@ const seo = {
 		<Button slot="column-3-cta">Learn More</Button>
 	</ThreeColumnTextSection>
 
-	<YouTubeEmbedSection url="https://www.youtube.com/watch?v=cbYr75_R15M" rounded />
-
 	<StickyTextImageSection>
 		<div slot="text-container">
-			<h2>Features</h2>
+			<h2>Services</h2>
 			<h3>SEO</h3>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem tempore odio! Nemo

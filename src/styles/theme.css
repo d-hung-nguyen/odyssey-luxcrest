@@ -31,11 +31,10 @@
 	--theme-blog-post-header-width: 1200px;
 
 	/* Theme Fonts */
-	--theme-font-family-serif: "Charis SIL", serif;
-
-	--theme-font-family-sans: "Lato", sans-serif;
-
-	
+	--theme-font-family-serif: 'Roboto Serif', Georgia, Cambria, 'Times New Roman',
+		Times, serif;
+	--theme-font-family-sans: 'Lato', -apple-system, BlinkMacSystemFont,
+		sans-serif;
 
 	--theme-primary: #1556ac;
 	--theme-primary-hover: #2569c3;
@@ -49,14 +48,4 @@
 
 	--theme-surface-2: #072650;
 	--theme-on-surface-2: #ffffff;
-	--font-size-base: 1rem;
-	--font-size-sm: 0.875rem;
-	--font-size-lg: 1.25rem;
-	--font-size-xl: 1.5rem;
-	--font-size-xxl: 2rem;
-	--font-size-xxxl: 3rem;
-	--font-size-xxxxl: 4rem;
-	--font-size-xxxxxl: 5rem;
-	--font-size-xxxxxxl: 6rem;
-	--font-size-xxxxxxxl: 7rem;
 }
